@@ -1,0 +1,41 @@
+@import '../../../../vendor/filament/filament/resources/css/theme.css';
+
+@config './tailwind.config.js';
+
+
+
+
+
+
+.fi-btn {
+    border-radius: 100px;
+    padding: 12px 20px; /* altura x largura */
+}
+
+.fi-input {
+    height: 45px;
+}
+
+
+label.fi-fo-field-wrp-label {
+    margin-left: 8px;
+    margin-bottom: -6px !important;
+    padding: 0px !important;
+}
+
+
+thead.bg-gray-50 {
+    --tw-bg-opacity: 1;
+    background-color: #F7F3FF;
+}
+
+/*:is(.dark) div.fi-ta-ctn.ring-1,
+:is(.dark) div.fi-topbar > nav.ring-1,
+:is(.dark) header.fi-sidebar-header,
+:is(.dark) section.fi-section
+{
+    !* box-shadow: var(--tw-ring-offset-shadow, 0 0 #cccccc); *!
+    --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) #27272B;
+}*/
+
+
